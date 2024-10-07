@@ -1,0 +1,12 @@
+branch-defaults:
+  master:
+    environment: javamas-staging-v3
+  test:
+    environment: javamas-staging-v3
+  production:
+    environment: javamas-production-v2
+global:
+  application_name: javamas-staging
+  default_platform: PHP 8.0 running on 64bit Amazon Linux 2/3.7.1
+  default_region: ap-southeast-1
+  sc: git

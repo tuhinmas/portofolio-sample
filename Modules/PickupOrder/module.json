@@ -1,0 +1,16 @@
+{
+    "name": "PickupOrder",
+    "alias": "pickuporder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PickupOrder\\Providers\\PickupOrderServiceProvider",
+        "Modules\\PickupOrder\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Helper/PickupOrderFile.php"
+    ],
+    "requires": []
+}

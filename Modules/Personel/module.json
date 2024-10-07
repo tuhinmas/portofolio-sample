@@ -1,0 +1,14 @@
+{
+    "name": "Personel",
+    "alias": "personel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Personel\\Providers\\PersonelServiceProvider",
+        "Modules\\Personel\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

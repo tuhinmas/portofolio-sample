@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+    app:
+        build: .
+        volumes:
+            - .:/app
+            - ${HOME}/.composer:/tmp
+        ports:
+            - ${APP_PORT}:8000
+        command: php artisan serve --host 0.0.0.0 --port 8000
+        depends_on:
+            - mysql
+            - mysqltest
+            - mailhog
+            - phpmyadmin
+    mysql:
+        image: mysql:5.7
+        ports:
+            - 3306:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_USER: ${DB_USERNAME}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+        volumes:
+            - devdata:/var/lib/mysql
+    mysqltest:
+        image: mysql:5.7
+        restart: always
+        ports:
+            - 3307:3307
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABSE: ${DB_TEST_DATABASE}
+            MYSQL_USER: ${DB_TEST_USERNAME}
+            MYSQL_PASSWORD: ${DB_TEST_PASSWORD}
+        volumes:
+            - testdata:/var/lib/mysql
+    mailhog:
+        image: mailhog/mailhog
+        ports:
+            - 8025:8025
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:latest
+        restart: always
+        environment:
+            PMA_HOST: mysql
+            PMA_USER: ${DB_USERNAME}
+            PMA_PASSWORD: ${DB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: root
+        ports:
+            - 9191:80
+volumes:
+    devdata: {}
+    testdata: {}

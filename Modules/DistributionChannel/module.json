@@ -1,0 +1,14 @@
+{
+    "name": "DistributionChannel",
+    "alias": "distributionchannel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DistributionChannel\\Providers\\DistributionChannelServiceProvider",
+        "Modules\\DistributionChannel\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

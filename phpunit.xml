@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="Unit">
+      <!-- <directory suffix="Test.php">./tests/Unit</directory> -->
+    </testsuite>
+    <testsuite name="Feature">
+      <!-- <directory suffix="Test.php">./tests/Feature</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/DBTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/MobileVersionTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/LoginMarketingTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/LoginAdminTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/LoginSupportTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/LoginV3Test.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/RegisterAccountTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/LoginV2TokenTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Analysis/Tests/Unit/RecapOrderRegionTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Analysis/Tests/Unit/RecapOrderSubRegionTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Contest/Tests/Unit/ContestParticipantAdjustmentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Contest/Tests/Unit/ContestRedeemStickerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Contest/Tests/Unit/ContestParticipantPointRecalculationTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Contest/Tests/Unit/ContestParticipantTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Contest/Tests/Unit/ContestParticipantSearchTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Event/Tests/Unit/EventApplicatorTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/DealerBenefitTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/DealerGradeSuggestionTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/FeePositionHistoryTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/FeeProductTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/MarketingChangeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/GradingTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/GradingBlockDealerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/PaymentMethodTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/GradeBlockDealerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/GradeBlockDealerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/MarketingAreaDistrictTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/SubRegionOnMarketingChangeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/RegionOnMarketingChangeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/StatusFeeHistoryTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/FeeFollowUpHistoryTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/FeeFollowUpTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Distributor/Tests/Unit/DistributorRevokeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Distributor/Tests/Unit/DistributorStockTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Distributor/Tests/Unit/DistributorContractTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Distributor/Tests/Unit/DistributorAreaTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DispatchOrderActivateTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DispatchOrderDetailProductTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DispatchOrderDetailQtyTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DeliveryOrderTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DeliveryOrderConcurentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DispatchOrderDetailTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/DispatchOrderTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Event/Tests/Unit/EventTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Event/Tests/Unit/EventPreferenceTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Forecast/Tests/Unit/ForecastTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Forecast/Tests/Unit/ForecastAchievementTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/KiosTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/KiosTempTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/DealerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/DealerApprovalTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/DealerApprovalConcurrentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/DealerTempTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/DealerTempAddressTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/DealerAddressTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerTempAddressTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerTempTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerAddressTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerApprovalTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerTransferDealerTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/Notification/SubDealerTempNotificationTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/SubDealerTempFileTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealerV2/Tests/Unit/DealerV3Test.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealerV2/Tests/Unit/SubDealerListV3Test.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/LogPhone/Tests/Unit/LogNoteTest.php</directory> -->
+
+      <!-- <directory suffix="Test.php">./Modules/Authentication/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Analysis/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Contest/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DataAcuan/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/DistributionChannel/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Distributor/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Event/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Forecast/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealer/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/KiosDealerV2/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/LogPhone/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Notification/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrderV2/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/</directory> -->
+      <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/</directory>
+      <!-- <directory suffix="Test.php">./Modules/PlantingCalendar/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PointMarketing/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PromotionGood/Tests/Unit/</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/</directory> -->
+
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/CreditMemoCancelationJobTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/CreditMemoCancelationTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/CreditMemoDetailTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/CreditMemoJobTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/CreditMemoTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/InvoiceAccordingDispatchTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/InvoiceAccordingContestTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/InvoiceTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/PaymentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/Jobs/InvoiceNotificationJobTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Invoice/Tests/Unit/Jobs/InvoiceMobileNotificationJobTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Notification/Tests/Unit/NotificationTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/DirectSalesPaymentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/ProofingIndirectSalesTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/ProofingIndirectSalesJobTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/RecapTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderCancelTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderDetailAccordingDispatchTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderDetailTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderFollowUpTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderIndirectTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderReturnTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderSubmitTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/Job/FollowUpOrderJobTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/SalesOrder/Tests/Unit/SalesOrderTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/ApplicatorTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/FeeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/FeePaymentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/MarketingTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/PersonelTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/MarketingDistrictSupervisorChangeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/MarketingSubRegionSupervisorChangeTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/PersonelFormdataTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/PersonelStatusHistoriesTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/FeeAchievementAndPaymentTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/Personel/Tests/Unit/MarketingForecastAchievementTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PointMarketing/Tests/Unit/PointMarketingTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/DetailPickupOrderTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/PickupOrderTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/PickupOrderAutoCheckTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/PickupOrderDetailTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/PickupOrderDetailFileTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/DetailPickupOrderTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/PickupOrderCheckTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PickupOrder/Tests/Unit/UnloadPickupDispatchTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PromotionGood/Tests/Unit/PromotionGoodRequestTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/PromotionGood/Tests/Unit/DisptachPromotionTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/ConsideredReceiveingFormDataTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/ConsideredReceiveingTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/RecevingGoodIndirectFileTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/ReceivingGoodDetailTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/ReceivingGoodTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/ReceivingGood/Tests/Unit/DispatchStatusOnReceivedTest.php</directory> -->
+      <!-- <directory suffix="Test.php">./Modules/*/Tests/Unit/</directory> -->
+
+    </testsuite>
+  </testsuites>
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">./app</directory>
+    </include>
+  </coverage>
+  <php>
+    <server name="APP_ENV" value="testing" force="true"/>
+    <server name="BCRYPT_ROUNDS" value="4"/>
+    <server name="CACHE_DRIVER" value="array"/>
+    <server name="DB_CONNECTION" value="mysql"/>
+    <!-- <server name="DB_CONNECTION" value="sqlite"/> -->
+    <!-- <server name="DB_DATABASE" value=":memory:"/> -->
+    <server name="MAIL_MAILER" value="array"/>
+    <server name="QUEUE_CONNECTION" value="database"/>
+    <server name="SESSION_DRIVER" value="array"/>
+    <server name="TELESCOPE_ENABLED" value="false"/>
+    <env name="PHPUNIT_TEST_TIMEOUT" value="3000"/> <!-- Adjust the value as needed -->
+  </php>
+
+</phpunit>

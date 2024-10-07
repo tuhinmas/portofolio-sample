@@ -1,0 +1,17 @@
+{
+    "name": "DataAcuan",
+    "alias": "dataacuan",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DataAcuan\\Providers\\DataAcuanServiceProvider",
+        "Modules\\DataAcuan\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Helper/agencyLevel.php",
+        "Helper/marketingPosition.php"
+    ],
+    "requires": []
+}

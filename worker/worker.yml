@@ -1,0 +1,22 @@
+apps:
+  - name: order
+    script: artisan
+    exec_mode: fork
+    interpreter: php
+    instances: 1
+    args:
+      - queue:work
+      - --tries=3
+      - --sleep=1
+      - --queue=order
+
+  - name: default
+    script: artisan
+    exec_mode: fork
+    interpreter: php
+    instances: 1
+    args:
+      - queue:work
+      - --sleep=1
+      - --queue=default
+    max_memory_restart: "150M"

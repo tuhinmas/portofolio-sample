@@ -1,0 +1,14 @@
+{
+    "name": "ReceivingGood",
+    "alias": "receivinggood",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ReceivingGood\\Providers\\ReceivingGoodServiceProvider",
+        "Modules\\ReceivingGood\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

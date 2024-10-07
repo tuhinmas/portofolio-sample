@@ -1,0 +1,16 @@
+{
+    "name": "Invoice",
+    "alias": "invoice",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Invoice\\Providers\\InvoiceServiceProvider",
+        "Modules\\Invoice\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Helper/CreditMemo.php"
+    ],
+    "requires": []
+}

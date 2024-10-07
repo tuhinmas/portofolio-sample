@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+
+#create bash docker command to run
+
+COMPOSE="docker-compose -f docker-compose.yml"
+
+#if we pass any arumgumwnt ..
+if [ $# -gt 0 ]; then
+
+    #start up container
+    if [ "$1" == "serve" ]; then
+        $COMPOSE up -d app \
+        && $COMPOSE exec \
+            app \
+            php artisan migrate
+
+    #stop the containers
+    elif [ "$1" == "stop" ]; then
+        $COMPOSE stop
+
+    #if "composer" is use, pass-thru to "composer" inside a new container
+    elif [ "$1" == "composer" ] || [ "$1" == "comp" ]; then
+        shift 1
+        $COMPOSE run --rm \
+            app \
+            composer "$@"
+
+    #if artisan is used, pass-thru "artisan" inside a new container
+    elif [ "$1" == "artisan" ] || [ "$1" == "art" ]; then
+        shift 1
+        $COMPOSE run --rm \
+            app \
+            php artisan "$@"
+
+    #if test is used, run unit tests, pass thru any argument to php unit
+    elif [ "$1" == "test" ]; then
+        shift 1
+        $COMPOSE run --rm \
+            app \
+            ./vendor/bin/phpunit "$@"
+    else
+        $COMPOSE "$@"
+    fi
+else
+    #use the docker-compose ps command if nothing else passed through
+    $COMPOSE ps
+fi
+
