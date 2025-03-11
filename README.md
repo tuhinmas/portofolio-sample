@@ -1,4 +1,4 @@
-Modular System Platform For Sample Only Not Real Project
+THIS IS JUST SAMPLE AND PART OF PROJECT WHAT I'VE DONE
 =================
 
 
